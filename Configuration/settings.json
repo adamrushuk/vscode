@@ -1,14 +1,16 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "files.associations": {
-        "*.ps1": "powershell"
-    },
+    "editor.multiCursorModifier": "ctrlCmd",
+    "extensions.autoUpdate": false,
+    "files.autoSave": "afterDelay",
     "files.defaultLanguage": "powershell",
     "files.trimTrailingWhitespace": true,
     "git.confirmSync": false,
     "powershell.enableProfileLoading": true,
     "powershell.integratedConsole.focusConsoleOnExecute": false,
+    "powershell.integratedConsole.showOnStartup": false,
     "terminal.integrated.shell.windows": "C:\\Windows\\sysnative\\WindowsPowerShell\\v1.0\\powershell.exe",
     "vsicons.dontShowNewVersionMessage": true,
+    "window.openFilesInNewWindow": "off",
     "workbench.iconTheme": "vscode-icons"
 }
