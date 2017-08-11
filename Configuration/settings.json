@@ -2,6 +2,7 @@
 {
     "editor.minimap.enabled": false,
     "editor.multiCursorModifier": "ctrlCmd",
+    "editor.rulers": [80],
     "extensions.autoUpdate": false,
     "files.autoSave": "afterDelay",
     "files.defaultLanguage": "powershell",
