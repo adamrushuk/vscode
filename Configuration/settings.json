@@ -2,7 +2,7 @@
 {
     "editor.minimap.enabled": false,
     "editor.multiCursorModifier": "ctrlCmd",
-    "editor.rulers": [80],
+    "editor.rulers": [110],
     "extensions.autoUpdate": false,
     "files.autoSave": "afterDelay",
     "files.defaultLanguage": "powershell",
@@ -14,5 +14,6 @@
     "terminal.integrated.shell.windows": "C:\\Windows\\sysnative\\WindowsPowerShell\\v1.0\\powershell.exe",
     "vsicons.dontShowNewVersionMessage": true,
     "window.openFilesInNewWindow": "off",
-    "workbench.iconTheme": "vscode-icons"
+    "workbench.iconTheme": "vscode-icons",
+	"workbench.startupEditor": "newUntitledFile"
 }
