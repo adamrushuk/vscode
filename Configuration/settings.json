@@ -1,11 +1,16 @@
 // Place your settings in this file to overwrite the default settings
 {
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
     "editor.minimap.enabled": false,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.rulers": [110],
+    "editor.tabSize": 4,
+    "editor.trimAutoWhitespace": true,
     "extensions.autoUpdate": false,
     "files.autoSave": "afterDelay",
     "files.defaultLanguage": "powershell",
+    "files.eol": "\n",
     "files.trimTrailingWhitespace": true,
     "git.confirmSync": false,
     "powershell.enableProfileLoading": true,
@@ -15,5 +20,5 @@
     "vsicons.dontShowNewVersionMessage": true,
     "window.openFilesInNewWindow": "off",
     "workbench.iconTheme": "vscode-icons",
-	"workbench.startupEditor": "newUntitledFile"
+    "workbench.startupEditor": "newUntitledFile"
 }
