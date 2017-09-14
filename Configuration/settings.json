@@ -4,7 +4,7 @@
     "editor.formatOnSave": true,
     "editor.minimap.enabled": false,
     "editor.multiCursorModifier": "ctrlCmd",
-    "editor.rulers": [110],
+    "editor.rulers": [115],
     "editor.tabSize": 4,
     "editor.trimAutoWhitespace": true,
     "extensions.autoUpdate": false,
