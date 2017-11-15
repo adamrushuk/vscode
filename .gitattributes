@@ -1,0 +1,13 @@
+# Exclude these folders and files during export
+/.vscode export-ignore
+/Temp export-ignore
+build.ps1 export-ignore
+build.psake.ps1 export-ignore
+build.settings.ps1 export-ignore
+PSScriptAnalyzerSettings.psd1 export-ignore
+deploy.psdeploy.ps1 export-ignore
+.gitignore export-ignore
+.gitattributes export-ignore
+
+# Set default behavior as core.autocrlf may not be set
+* text=auto
