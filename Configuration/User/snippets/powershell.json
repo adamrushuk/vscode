@@ -1,0 +1,23 @@
+{
+	"Write Verbose Begin": {
+		"prefix": "wvb",
+		"body": [
+			"Write-Verbose -Message \"$(Get-Date -Format 'o') [BEGIN  ] $0\""
+		],
+		"description": "Write-Verbose BEGIN block."
+	},
+	"Write Verbose": {
+		"prefix": "wv",
+		"body": [
+			"Write-Verbose -Message \"$(Get-Date -Format 'o') [PROCESS] $0\""
+		],
+		"description": "Write-Verbose."
+	},
+	"Write Debug": {
+		"prefix": "wd",
+		"body": [
+			"Write-Debug \"$(Get-Date -Format 'o') [DEBUG  ] $0\""
+		],
+		"description": "Write-Debug."
+	}
+}
