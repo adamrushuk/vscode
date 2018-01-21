@@ -1,2 +1,3 @@
-# VS Code
-Notes and resources for Visual Studio Code
+# Visual Studio Code
+
+Notes and resources for Visual Studio Code.
