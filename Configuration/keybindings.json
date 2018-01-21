@@ -1,0 +1,20 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "shift+alt+t",
+        "command": "workbench.action.tasks.test",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+q",
+        "command": "workbench.action.toggleMaximizedPanel"
+    },
+    {
+        "key": "ctrl+alt+oem_period",
+        "command": "workbench.action.terminal.focusPrevious",
+    },
+    {
+        "key": "ctrl+alt+oem_comma",
+        "command": "workbench.action.terminal.focusNext",
+    }
+]

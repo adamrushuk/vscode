@@ -3,7 +3,9 @@
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
     "editor.minimap.enabled": true,
-    "editor.rulers": [115],
+    "editor.rulers": [
+        115
+    ],
     "editor.tabSize": 4,
     "editor.trimAutoWhitespace": true,
     "extensions.autoUpdate": false,
