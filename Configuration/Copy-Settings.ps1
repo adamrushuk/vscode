@@ -1,4 +1,4 @@
 # Copy keyboard shortcuts and settings files
-$sourceFiles = 'User'
+$sourceFilesPath = Join-Path -Path $PSScriptRoot -ChildPath 'User'
 $vscodeSettingsfolder = Join-Path -Path $env:APPDATA -ChildPath 'Code'
-Copy-Item -Path $sourceFiles -Destination $vscodeSettingsfolder -Recurse -Force -Verbose
+Copy-Item -Path $sourceFilesPath -Destination $vscodeSettingsfolder -Recurse -Force -Verbose
