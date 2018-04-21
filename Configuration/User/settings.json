@@ -1,29 +1,43 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
     "editor.minimap.enabled": true,
+    "editor.renderWhitespace": "all",
     "editor.rulers": [
         115
     ],
     "editor.tabSize": 4,
     "editor.trimAutoWhitespace": true,
     "extensions.autoUpdate": false,
-    "files.autoSave": "afterDelay",
+    "files.autoSave": "off",
     "files.defaultLanguage": "powershell",
     "files.trimTrailingWhitespace": true,
+    "git.autofetch": true,
     "git.confirmSync": false,
+    "gitlens.codeLens.enabled": false,
+    "gitlens.keymap": "chorded",
+    "markdown.extension.orderedList.marker": "one",
     "powershell.enableProfileLoading": true,
     "powershell.integratedConsole.focusConsoleOnExecute": false,
     "powershell.integratedConsole.showOnStartup": false,
+    "terminal.integrated.copyOnSelection": true,
     "terminal.integrated.shell.windows": "C:\\Windows\\sysnative\\WindowsPowerShell\\v1.0\\powershell.exe",
     "vsicons.dontShowNewVersionMessage": true,
     "window.openFilesInNewWindow": "off",
+    "window.zoomLevel": 0,
     "workbench.iconTheme": "vscode-icons",
     "workbench.startupEditor": "newUntitledFile",
     "[markdown]": {
-        "files.trimTrailingWhitespace": false,
+        "editor.tabSize": 2,
+        "editor.wordWrap": "on",
+        "editor.renderWhitespace": "all",
+        "editor.acceptSuggestionOnEnter": "off",
         "editor.trimAutoWhitespace": false,
-        "editor.formatOnSave": false
-    }
+        "files.trimTrailingWhitespace": false
+    },
+    "[yaml]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": true
+    },
 }

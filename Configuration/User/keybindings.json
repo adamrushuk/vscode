@@ -16,5 +16,9 @@
     {
         "key": "ctrl+alt+oem_comma",
         "command": "workbench.action.terminal.focusNext",
+    },
+    {
+        "key": "ctrl+shift+alt+p",
+        "command": "PowerShell.ShowAdditionalCommands"
     }
 ]
