@@ -19,5 +19,24 @@
 			"Write-Debug \"$(Get-Date -Format 'o') [DEBUG  ] $0\""
 		],
 		"description": "Write-Debug."
+	},
+	"DateTimeWriteVerbose": {
+		"prefix": "dtwv",
+		"body": [
+			"Write-Verbose \"[$(Get-Date -format G)] ${1:message}\"$0"
+		],
+		"description": "Pre-pend datetime for Write-Verbose"
+	},
+	"PSCustomObject": {
+		"prefix": "PSCustomObject",
+		"body": [
+			"[PSCustomObject]@{\r",
+			"\t${item1} = ${Property1}\r",
+			"\t${item2} = ${Property2}\r",
+			"\t${item3} = ${Property3}\r",
+			"\t${item4} = ${Property4}\r",
+			"}"
+		],
+		"description": "Creates a PSCustomObject"
 	}
 }
