@@ -1,3 +1,4 @@
+// Update snippets from: https://github.com/PowerShell/vscode-powershell/blob/master/docs/community_snippets.md
 {
 	"Write Verbose Begin": {
 		"prefix": "wvb",
