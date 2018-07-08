@@ -14,7 +14,6 @@ $codeCmdPath = Join-Path -Path $env:ProgramFiles -ChildPath 'Microsoft VS Code\b
 foreach ($vsCodeExtensionPath in $vsCodeExtensionPaths.FullName) {
     Write-Host "Installing extension $vsCodeExtensionPath..." -ForegroundColor 'Gray'
     & $codeCmdPath --install-extension $vsCodeExtensionPath 2>&1 >> $null
-    #$null = Start-Process $codeCmdPath -ArgumentList "--install-extension $vsCodeExtensionPath" -Wait -Verbose -ErrorAction SilentlyContinue -NoNewWindow 2>&1
 }
 
 Write-Host "FINISHED: Installing VS Code extensions." -ForegroundColor 'Green'
