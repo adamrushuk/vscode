@@ -10,14 +10,6 @@
         "command": "workbench.action.toggleMaximizedPanel"
     },
     {
-        "key": "ctrl+alt+oem_period",
-        "command": "workbench.action.terminal.focusNext",
-    },
-    {
-        "key": "ctrl+alt+oem_comma",
-        "command": "workbench.action.terminal.focusPrevious",
-    },
-    {
         "key": "ctrl+shift+alt+p",
         "command": "PowerShell.ShowAdditionalCommands"
     },
@@ -28,5 +20,15 @@
             "commandName": "ConvertToSplatExpression"
         },
         "when": "editorLangId == 'powershell'"
+    },
+    {
+        "key": "ctrl+tab",
+        "command": "workbench.action.terminal.focusNext",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+tab",
+        "command": "workbench.action.terminal.focusPrevious",
+        "when": "terminalFocus"
     }
 ]
