@@ -33,7 +33,7 @@ Write-Host "FINISHED: $taskMessage." -ForegroundColor 'Green'
 
 
 # Install VSCode
-$vsCodeInstallerPath = (Resolve-Path -Path 'VSCodeSetup-x64-*.exe').Path
+$vsCodeInstallerPath = (Resolve-Path -Path 'VSCode*Setup*.exe').Path
 
 # Install with the context menu, file association, and add to path options (and don't run code after install):
 $vsCodeInstallerArguments = "/verysilent /suppressmsgboxes /mergetasks=`"!runcode,addcontextmenufiles,addcontextmenufolders,associatewithfiles,addtopath`" /log=`"$vscodeLogPath`""
