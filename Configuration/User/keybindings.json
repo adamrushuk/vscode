@@ -11,7 +11,8 @@
     },
     {
         "key": "ctrl+shift+alt+p",
-        "command": "PowerShell.ShowAdditionalCommands"
+        "command": "PowerShell.ShowAdditionalCommands",
+        "when": "editorLangId == 'powershell'"
     },
     {
         "key": "alt+shift+s",
@@ -30,5 +31,17 @@
         "key": "ctrl+shift+tab",
         "command": "workbench.action.terminal.focusPrevious",
         "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+numpad0",
+        "command": "workbench.action.togglePanelPosition"
+    },
+    {
+        "key": "f5",
+        "command": "workbench.action.terminal.runActiveFile"
+    },
+    {
+        "key": "f8",
+        "command": "workbench.action.terminal.runSelectedText"
     }
 ]
