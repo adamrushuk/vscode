@@ -15,14 +15,6 @@
         "when": "editorLangId == 'powershell'"
     },
     {
-        "key": "alt+shift+s",
-        "command": "PowerShell.InvokeRegisteredEditorCommand",
-        "args": {
-            "commandName": "ConvertToSplatExpression"
-        },
-        "when": "editorLangId == 'powershell'"
-    },
-    {
         "key": "ctrl+tab",
         "command": "workbench.action.terminal.focusNext",
         "when": "terminalFocus"
@@ -41,7 +33,7 @@
         "command": "workbench.action.terminal.runActiveFile"
     },
     {
-        "key": "f8",
-        "command": "workbench.action.terminal.runSelectedText"
+        "key": "ctrl+shift+t",
+        "command": "shellLauncher.launch"
     }
 ]
