@@ -35,5 +35,9 @@
     {
         "key": "ctrl+shift+t",
         "command": "shellLauncher.launch"
+    },
+    {
+        "key": "ctrl+f8",
+        "command": "workbench.action.terminal.runSelectedText"
     }
 ]
