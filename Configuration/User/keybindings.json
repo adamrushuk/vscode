@@ -37,7 +37,21 @@
         "command": "shellLauncher.launch"
     },
     {
-        "key": "ctrl+f8",
+        "key": "f8",
         "command": "workbench.action.terminal.runSelectedText"
+    },
+    {
+        "key": "ctrl+f8",
+        "command": "PowerShell.RunSelection",
+        "when": "editorTextFocus && editorLangId == 'powershell'"
+    },
+    {
+        "key": "f8",
+        "command": "-PowerShell.RunSelection",
+        "when": "editorTextFocus && editorLangId == 'powershell'"
+    },
+    {
+        "key": "ctrl+shift+a",
+        "command": "workbench.action.toggleEditorWidths"
     }
 ]
