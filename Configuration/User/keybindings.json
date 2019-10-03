@@ -53,5 +53,9 @@
     {
         "key": "ctrl+shift+a",
         "command": "workbench.action.toggleEditorWidths"
+    },
+    {
+        "key": "ctrl+alt+a",
+        "command": "workbench.action.focusNextGroup"
     }
 ]
