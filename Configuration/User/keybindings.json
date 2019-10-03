@@ -1,3 +1,8 @@
+/* Useful standard Keyboard Shortcuts
+- Alt+LeftArrow and Alt+RightArrow to move cursor back and forwards between positions
+-
+*/
+
 // Place your key bindings in this file to overwrite the defaults
 [
     {
@@ -57,5 +62,9 @@
     {
         "key": "ctrl+alt+a",
         "command": "workbench.action.focusNextGroup"
+    },
+    {
+        "key": "ctrl+shift+z",
+        "command": "workbench.action.navigateLast"
     }
 ]
