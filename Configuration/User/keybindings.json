@@ -1,6 +1,6 @@
 /* Useful standard Keyboard Shortcuts
 - Alt+LeftArrow and Alt+RightArrow to move cursor back and forwards between positions
--
+- Ctrl+<Number Keys> to open an Editor Group
 */
 
 // Place your key bindings in this file to overwrite the defaults
