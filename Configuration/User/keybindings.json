@@ -1,8 +1,3 @@
-/* Useful standard Keyboard Shortcuts
-- Alt+LeftArrow and Alt+RightArrow to move cursor back and forwards between positions
-- Ctrl+<Number Keys> to open an Editor Group
-*/
-
 // Place your key bindings in this file to overwrite the defaults
 [
     {
@@ -20,20 +15,6 @@
         "when": "editorLangId == 'powershell'"
     },
     {
-        "key": "ctrl+tab",
-        "command": "workbench.action.terminal.focusNext",
-        "when": "terminalFocus"
-    },
-    {
-        "key": "ctrl+shift+tab",
-        "command": "workbench.action.terminal.focusPrevious",
-        "when": "terminalFocus"
-    },
-    {
-        "key": "ctrl+numpad0",
-        "command": "workbench.action.togglePanelPosition"
-    },
-    {
         "key": "f5",
         "command": "workbench.action.terminal.runActiveFile"
     },
@@ -46,13 +27,13 @@
         "command": "workbench.action.terminal.runSelectedText"
     },
     {
-        "key": "ctrl+f8",
-        "command": "PowerShell.RunSelection",
+        "key": "f8",
+        "command": "-PowerShell.RunSelection",
         "when": "editorTextFocus && editorLangId == 'powershell'"
     },
     {
-        "key": "f8",
-        "command": "-PowerShell.RunSelection",
+        "key": "ctrl+f8",
+        "command": "PowerShell.RunSelection",
         "when": "editorTextFocus && editorLangId == 'powershell'"
     },
     {
@@ -66,5 +47,42 @@
     {
         "key": "ctrl+shift+z",
         "command": "workbench.action.navigateLast"
-    }
+    },
+    {
+        "key": "ctrl+tab",
+        "command": "workbench.action.quickOpenPreviousRecentlyUsedEditor",
+        "when": "!inEditorsPicker && editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+tab",
+        "command": "workbench.action.quickOpenLeastRecentlyUsedEditor",
+        "when": "!inEditorsPicker && editorTextFocus"
+    },
+    {
+        "key": "ctrl+tab",
+        "command": "workbench.action.terminal.focusNext",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+tab",
+        "command": "workbench.action.terminal.focusPrevious",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+alt+s",
+        "command": "git.sync"
+    },
+    {
+        "key": "ctrl+shift+l",
+        "command": "workbench.action.terminal.clear",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+alt+v",
+        "command": "markdown.showLockedPreviewToSide"
+    },
+    {
+        "key": "ctrl+shift+delete",
+        "command": "workbench.action.terminal.kill"
+    },
 ]

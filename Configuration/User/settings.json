@@ -1,63 +1,59 @@
-// Place your settings in this file to overwrite the default settings
 {
     "[markdown]": {
-        "editor.tabSize": 2,
-        "editor.wordWrap": "on",
-        "editor.renderWhitespace": "all",
         "editor.acceptSuggestionOnEnter": "off",
+        "editor.fontFamily": "'Consolas', 'Fira Code', 'Courier New', monospace",
+        "editor.renderWhitespace": "all",
+        "editor.tabSize": 2,
         "editor.trimAutoWhitespace": false,
+        "editor.wordWrap": "on",
         "files.trimTrailingWhitespace": false
     },
-    "[yaml]": {
-        "editor.insertSpaces": true,
-        "editor.tabSize": 2,
-        "editor.autoIndent": true
-    },
+    "[powershell]": {},
     "[ruby]": {
+        "editor.autoIndent": "full",
         "editor.insertSpaces": true,
-        "editor.tabSize": 2,
-        "editor.autoIndent": true
+        "editor.tabSize": 2
     },
+    "[yaml]": {
+        "editor.autoIndent": "full",
+        "editor.defaultFormatter": "ms-azure-devops.azure-pipelines",
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2
+    },
+    "breadcrumbs.enabled": true,
+    "debug.showBreakpointsInOverviewRuler": true,
+    "debug.toolBarLocation": "docked",
+    "diffEditor.ignoreTrimWhitespace": true,
+    "editor.fontFamily": "'Consolas', 'Fira Code', 'Courier New', monospace",
+    "editor.fontLigatures": false,
     "editor.formatOnSave": false,
     "editor.minimap.enabled": true,
+    "editor.renderControlCharacters": true,
+    "editor.renderWhitespace": "all",
     "editor.rulers": [
         115
     ],
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "on",
     "editor.tabSize": 4,
     "editor.trimAutoWhitespace": true,
     "extensions.autoUpdate": false,
+    "files.associations": {
+        "*.mof": "ini"
+    },
     "files.autoSave": "off",
     "files.defaultLanguage": "powershell",
-    "files.trimTrailingWhitespace": true,
+    "files.eol": "\n",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.factorypath": true,
+        "**/.project": true,
+        "**/.settings": true
+    },
     "files.insertFinalNewline": true,
-    "git.confirmSync": false,
-    "powershell.enableProfileLoading": true,
-    "powershell.integratedConsole.focusConsoleOnExecute": false,
-    "powershell.integratedConsole.showOnStartup": false,
-    "powershell.codeFormatting.openBraceOnSameLine": false,
-    "powershell.codeFormatting.newLineAfterOpenBrace": false,
-    "powershell.codeFormatting.newLineAfterCloseBrace": true,
-    "powershell.codeFormatting.whitespaceBeforeOpenBrace": true,
-    "powershell.codeFormatting.whitespaceBeforeOpenParen": true,
-    "powershell.codeFormatting.whitespaceAroundOperator": true,
-    "powershell.codeFormatting.whitespaceAfterSeparator": true,
-    "powershell.codeFormatting.ignoreOneLineBlock": false,
-    "powershell.codeFormatting.preset": "Custom",
-    "terminal.integrated.shell.windows": "C:\\Windows\\sysnative\\WindowsPowerShell\\v1.0\\powershell.exe",
-    "vsicons.dontShowNewVersionMessage": true,
-    "window.openFilesInNewWindow": "off",
-    "workbench.iconTheme": "vscode-icons",
-    "workbench.startupEditor": "newUntitledFile",
-    "window.zoomLevel": 0,
-    "editor.fontLigatures": true,
-    "editor.fontFamily": "Consolas, 'Courier New', monospace",
-    "terminal.integrated.copyOnSelection": true,
+    "files.trimTrailingWhitespace": true,
     "git.autofetch": true,
-    "editor.renderWhitespace": "all",
-    "editor.renderControlCharacters": true,
-    "gitlens.keymap": "chorded",
-    "gitlens.codeLens.enabled": true,
-    "markdown.extension.orderedList.marker": "one",
+    "git.confirmSync": false,
     "gitlens.advanced.messages": {
         "suppressCommitHasNoPreviousCommitWarning": false,
         "suppressCommitNotFoundWarning": false,
@@ -68,14 +64,88 @@
         "suppressResultsExplorerNotice": false,
         "suppressShowKeyBindingsNotice": true
     },
-    "gitlens.historyExplorer.enabled": true,
-    "files.associations": {
-        "*.mof": "ini"
-    },
-    "debug.toolBarLocation": "docked",
-    "gitlens.gitExplorer.files.layout": "auto",
-    "update.channel": "none",
-    "breadcrumbs.enabled": true,
+    "gitlens.codeLens.enabled": true,
+    "gitlens.keymap": "chorded",
+    "gitlens.views.fileHistory.enabled": true,
+    "gitlens.views.lineHistory.enabled": true,
+    "gitlens.views.repositories.files.layout": "auto",
+    "markdown.extension.orderedList.marker": "one",
+    "powershell.codeFormatting.newLineAfterCloseBrace": true,
+    "powershell.codeFormatting.newLineAfterOpenBrace": false,
+    "powershell.codeFormatting.preset": "OTBS",
+    "powershell.codeFormatting.useCorrectCasing": true,
+    "powershell.codeFormatting.whitespaceAfterSeparator": true,
+    "powershell.codeFormatting.whitespaceAroundOperator": true,
+    "powershell.codeFormatting.whitespaceBeforeOpenBrace": true,
+    "powershell.codeFormatting.whitespaceBeforeOpenParen": true,
+    "powershell.enableProfileLoading": true,
+    "powershell.integratedConsole.focusConsoleOnExecute": false,
+    "powershell.integratedConsole.showOnStartup": false,
+    "powershell.powerShellDefaultVersion": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+    "powershell.sideBar.CommandExplorerVisibility": false,
+    "sync.autoDownload": true,
+    "sync.autoUpload": true,
+    "sync.gist": "c9cfda4ed7a90890270f4031feb7d3e2",
+    "sync.quietSync": true,
+    "sync.removeExtensions": false,
+    "sync.syncExtensions": false,
+    "terminal.external.windowsExec": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_0.9.433.0_x64__8wekyb3d8bbwe\\WindowsTerminal.exe",
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.fontFamily": "'Delugia Nerd Font', 'Consolas', 'Fira Code', 'Courier New', monospace",
+    "terminal.integrated.macOptionClickForcesSelection": true,
     "terminal.integrated.rendererType": "dom",
-    "editor.tabCompletion": "on"
+    "terminal.integrated.scrollback": 2000,
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
+    "terraform.codelens.enabled": false,
+    "terraform.format": {
+        "ignoreExtensionsOnSave": [
+            ".tfsmurf"
+        ]
+    },
+    "terraform.indexing": {
+        "enabled": true,
+        "liveIndexing": false,
+        "delay": 500,
+        "exclude": [
+            ".terraform/**/*",
+            "**/.terraform/**/*"
+        ]
+    },
+    "terraform.languageServer": {
+        "enabled": false,
+        "args": []
+    },
+    "terraform.lintPath": "C:\\ProgramData\\chocolatey\\bin\\tflint.exe",
+    "vsicons.dontShowNewVersionMessage": true,
+    "window.openFilesInNewWindow": "off",
+    "window.zoomLevel": 0,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.startupEditor": "newUntitledFile",
+    "yaml.format.enable": true,
+    "powershell.codeFormatting.autoCorrectAliases": true,
+    "powershell.codeFormatting.pipelineIndentationStyle": "IncreaseIndentationForFirstPipeline",
+    "editor.wordWrap": "on",
+    "vs-kubernetes": {
+        "vs-kubernetes.minikube-path.windows": "C:\\Users\\arush\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe"
+    },
+    "azureTerraform.terminal": "integrated",
+    "azureTerraform.test.location": "uksouth",
+    "shellLauncher.shells.windows": [
+        {
+            "shell": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+            "label": "PowerShell Core"
+        },
+        {
+            "shell": "C:\\Windows\\system32\\bash.exe",
+            "label": "WSL Bash"
+        },
+        {
+            "shell": "C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "label": "Windows PowerShell"
+        },
+        {
+            "shell": "C:\\Windows\\system32\\cmd.exe",
+            "label": "cmd"
+        },
+    ]
 }
