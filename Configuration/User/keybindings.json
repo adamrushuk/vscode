@@ -85,4 +85,8 @@
         "key": "ctrl+shift+delete",
         "command": "workbench.action.terminal.kill"
     },
+    {
+        "key": "ctrl+shift+alt+j",
+        "command": "workbench.action.joinAllGroups"
+    },
 ]
