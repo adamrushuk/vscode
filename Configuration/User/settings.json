@@ -20,6 +20,8 @@
         "editor.insertSpaces": true,
         "editor.tabSize": 2
     },
+    "azureTerraform.terminal": "integrated",
+    "azureTerraform.test.location": "uksouth",
     "breadcrumbs.enabled": true,
     "debug.showBreakpointsInOverviewRuler": true,
     "debug.toolBarLocation": "docked",
@@ -37,6 +39,7 @@
     "editor.tabCompletion": "on",
     "editor.tabSize": 4,
     "editor.trimAutoWhitespace": true,
+    "editor.wordWrap": "on",
     "extensions.autoUpdate": false,
     "files.associations": {
         "*.mof": "ini"
@@ -70,8 +73,10 @@
     "gitlens.views.lineHistory.enabled": true,
     "gitlens.views.repositories.files.layout": "auto",
     "markdown.extension.orderedList.marker": "one",
+    "powershell.codeFormatting.autoCorrectAliases": true,
     "powershell.codeFormatting.newLineAfterCloseBrace": true,
     "powershell.codeFormatting.newLineAfterOpenBrace": false,
+    "powershell.codeFormatting.pipelineIndentationStyle": "IncreaseIndentationForFirstPipeline",
     "powershell.codeFormatting.preset": "OTBS",
     "powershell.codeFormatting.useCorrectCasing": true,
     "powershell.codeFormatting.whitespaceAfterSeparator": true,
@@ -83,6 +88,24 @@
     "powershell.integratedConsole.showOnStartup": false,
     "powershell.powerShellDefaultVersion": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
     "powershell.sideBar.CommandExplorerVisibility": false,
+    "shellLauncher.shells.windows": [
+        {
+            "label": "PowerShell Core",
+            "shell": "C:\\Program Files\\PowerShell\\7\\pwsh.exe"
+        },
+        {
+            "label": "WSL Bash",
+            "shell": "C:\\Windows\\system32\\bash.exe"
+        },
+        {
+            "label": "Windows PowerShell",
+            "shell": "C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\powershell.exe"
+        },
+        {
+            "label": "cmd",
+            "shell": "C:\\Windows\\system32\\cmd.exe"
+        }
+    ],
     "sync.autoDownload": true,
     "sync.autoUpload": true,
     "sync.gist": "c9cfda4ed7a90890270f4031feb7d3e2",
@@ -103,49 +126,26 @@
         ]
     },
     "terraform.indexing": {
-        "enabled": true,
-        "liveIndexing": false,
         "delay": 500,
+        "enabled": true,
         "exclude": [
             ".terraform/**/*",
             "**/.terraform/**/*"
-        ]
+        ],
+        "liveIndexing": false
     },
     "terraform.languageServer": {
-        "enabled": false,
-        "args": []
+        "args": [],
+        "enabled": false
     },
     "terraform.lintPath": "C:\\ProgramData\\chocolatey\\bin\\tflint.exe",
+    "vs-kubernetes": {
+        "vs-kubernetes.minikube-path.windows": "C:\\Users\\arush\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe"
+    },
     "vsicons.dontShowNewVersionMessage": true,
     "window.openFilesInNewWindow": "off",
     "window.zoomLevel": 0,
     "workbench.iconTheme": "vscode-icons",
     "workbench.startupEditor": "newUntitledFile",
-    "yaml.format.enable": true,
-    "powershell.codeFormatting.autoCorrectAliases": true,
-    "powershell.codeFormatting.pipelineIndentationStyle": "IncreaseIndentationForFirstPipeline",
-    "editor.wordWrap": "on",
-    "vs-kubernetes": {
-        "vs-kubernetes.minikube-path.windows": "C:\\Users\\arush\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe"
-    },
-    "azureTerraform.terminal": "integrated",
-    "azureTerraform.test.location": "uksouth",
-    "shellLauncher.shells.windows": [
-        {
-            "shell": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
-            "label": "PowerShell Core"
-        },
-        {
-            "shell": "C:\\Windows\\system32\\bash.exe",
-            "label": "WSL Bash"
-        },
-        {
-            "shell": "C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\powershell.exe",
-            "label": "Windows PowerShell"
-        },
-        {
-            "shell": "C:\\Windows\\system32\\cmd.exe",
-            "label": "cmd"
-        },
-    ]
+    "yaml.format.enable": true
 }
