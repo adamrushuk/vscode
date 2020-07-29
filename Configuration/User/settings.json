@@ -8,7 +8,14 @@
         "editor.wordWrap": "on",
         "files.trimTrailingWhitespace": false
     },
-    "[powershell]": {},
+    "[powershell]": {
+        "editor.defaultFormatter": "ms-vscode.powershell"
+    },
+    "[json]": {
+        "editor.autoIndent": "full",
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2
+    },
     "[ruby]": {
         "editor.autoIndent": "full",
         "editor.insertSpaces": true,
@@ -20,8 +27,6 @@
         "editor.insertSpaces": true,
         "editor.tabSize": 2
     },
-    "azureTerraform.terminal": "integrated",
-    "azureTerraform.test.location": "uksouth",
     "breadcrumbs.enabled": true,
     "debug.showBreakpointsInOverviewRuler": true,
     "debug.toolBarLocation": "docked",
@@ -42,9 +47,11 @@
     "editor.wordWrap": "on",
     "extensions.autoUpdate": false,
     "files.associations": {
-        "*.mof": "ini"
+        "*.mof": "ini",
+        "Jenkinsfile copy": "groovy"
     },
     "files.autoSave": "off",
+    // "files.defaultLanguage": "shellscript",
     "files.defaultLanguage": "powershell",
     "files.eol": "\n",
     "files.exclude": {
@@ -71,18 +78,8 @@
     "gitlens.keymap": "chorded",
     "gitlens.views.fileHistory.enabled": true,
     "gitlens.views.lineHistory.enabled": true,
-    "gitlens.views.repositories.files.layout": "auto",
+    "gitlens.views.repositories.files.layout": "tree",
     "markdown.extension.orderedList.marker": "one",
-    "powershell.codeFormatting.autoCorrectAliases": true,
-    "powershell.codeFormatting.newLineAfterCloseBrace": true,
-    "powershell.codeFormatting.newLineAfterOpenBrace": false,
-    "powershell.codeFormatting.pipelineIndentationStyle": "IncreaseIndentationForFirstPipeline",
-    "powershell.codeFormatting.preset": "OTBS",
-    "powershell.codeFormatting.useCorrectCasing": true,
-    "powershell.codeFormatting.whitespaceAfterSeparator": true,
-    "powershell.codeFormatting.whitespaceAroundOperator": true,
-    "powershell.codeFormatting.whitespaceBeforeOpenBrace": true,
-    "powershell.codeFormatting.whitespaceBeforeOpenParen": true,
     "powershell.enableProfileLoading": true,
     "powershell.integratedConsole.focusConsoleOnExecute": false,
     "powershell.integratedConsole.showOnStartup": false,
@@ -98,6 +95,11 @@
             "shell": "C:\\Windows\\system32\\bash.exe"
         },
         {
+            "label": "Ubuntu 20.04",
+            // "shell": "C:\\Users\\adamr\\AppData\\Local\\Microsoft\\WindowsApps\\ubuntu1804.exe"
+            "shell": "C:\\Users\\adamr\\AppData\\Local\\Microsoft\\WindowsApps\\ubuntu2004.exe"
+        },
+        {
             "label": "Windows PowerShell",
             "shell": "C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\powershell.exe"
         },
@@ -108,37 +110,17 @@
     ],
     "sync.autoDownload": true,
     "sync.autoUpload": true,
-    "sync.gist": "c9cfda4ed7a90890270f4031feb7d3e2",
+    "sync.gist": "<GIST_GUID>",
     "sync.quietSync": true,
     "sync.removeExtensions": false,
     "sync.syncExtensions": false,
-    "terminal.external.windowsExec": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_0.9.433.0_x64__8wekyb3d8bbwe\\WindowsTerminal.exe",
+    "terminal.external.windowsExec": "wt",
     "terminal.integrated.copyOnSelection": true,
     "terminal.integrated.fontFamily": "'Delugia Nerd Font', 'Consolas', 'Fira Code', 'Courier New', monospace",
     "terminal.integrated.macOptionClickForcesSelection": true,
     "terminal.integrated.rendererType": "dom",
     "terminal.integrated.scrollback": 2000,
-    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
-    "terraform.codelens.enabled": false,
-    "terraform.format": {
-        "ignoreExtensionsOnSave": [
-            ".tfsmurf"
-        ]
-    },
-    "terraform.indexing": {
-        "delay": 500,
-        "enabled": true,
-        "exclude": [
-            ".terraform/**/*",
-            "**/.terraform/**/*"
-        ],
-        "liveIndexing": false
-    },
-    "terraform.languageServer": {
-        "args": [],
-        "enabled": false
-    },
-    "terraform.lintPath": "C:\\ProgramData\\chocolatey\\bin\\tflint.exe",
+    "terminal.integrated.shell.windows": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
     "vs-kubernetes": {
         "vs-kubernetes.minikube-path.windows": "C:\\Users\\arush\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe"
     },
@@ -147,5 +129,30 @@
     "window.zoomLevel": 0,
     "workbench.iconTheme": "vscode-icons",
     "workbench.startupEditor": "newUntitledFile",
-    "yaml.format.enable": true
+    "yaml.format.enable": true,
+    "git.ignoreLegacyWarning": true,
+    "editor.parameterHints.enabled": false,
+    "terraform.indexing": {
+        "enabled": false,
+        "liveIndexing": false,
+        "delay": 500,
+        "exclude": [
+            ".terraform/**/*",
+            "**/.terraform/**/*"
+        ]
+    },
+    "terraform.languageServer": {
+        "external": true,
+        "args": [
+            "serve"
+        ]
+    },
+    "editor.smoothScrolling": true,
+    "workbench.list.smoothScrolling": true,
+    "remote.SSH.showLoginTerminal": true,
+    // "azure.resourceFilter": [
+    //     "SOME_GUID"
+    // ],
+    "gitlens.views.compare.files.layout": "tree",
+    "gitlens.views.search.files.layout": "tree"
 }
