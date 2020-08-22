@@ -80,6 +80,7 @@
     "gitlens.views.lineHistory.enabled": true,
     "gitlens.views.repositories.files.layout": "tree",
     "markdown.extension.orderedList.marker": "one",
+
     "powershell.enableProfileLoading": true,
     "powershell.integratedConsole.focusConsoleOnExecute": false,
     "powershell.integratedConsole.showOnStartup": false,
@@ -121,9 +122,6 @@
     "terminal.integrated.rendererType": "dom",
     "terminal.integrated.scrollback": 2000,
     "terminal.integrated.shell.windows": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
-    "vs-kubernetes": {
-        "vs-kubernetes.minikube-path.windows": "C:\\Users\\arush\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe"
-    },
     "vsicons.dontShowNewVersionMessage": true,
     "window.openFilesInNewWindow": "off",
     "window.zoomLevel": 0,
@@ -150,9 +148,9 @@
     "editor.smoothScrolling": true,
     "workbench.list.smoothScrolling": true,
     "remote.SSH.showLoginTerminal": true,
-    // "azure.resourceFilter": [
-    //     "SOME_GUID"
-    // ],
     "gitlens.views.compare.files.layout": "tree",
-    "gitlens.views.search.files.layout": "tree"
+    "gitlens.views.search.files.layout": "tree",
+    "azureFunctions.showCoreToolsWarning": false,
+    "scm.alwaysShowRepositories": true,
+    "editor.snippetSuggestions": "none"
 }
