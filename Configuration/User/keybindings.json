@@ -89,4 +89,8 @@
         "key": "ctrl+shift+alt+j",
         "command": "workbench.action.joinAllGroups"
     },
+    {
+        "key": "ctrl+shift+alt+c",
+        "command": "workbench.files.action.collapseExplorerFolders"
+    },
 ]
