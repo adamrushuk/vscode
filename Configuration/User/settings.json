@@ -1,4 +1,10 @@
 {
+    "[dockerfile]": {
+        "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
     "[markdown]": {
         "editor.renderWhitespace": "all",
         "editor.tabSize": 2,
@@ -12,14 +18,13 @@
         115
     ],
     "editor.trimAutoWhitespace": true,
-    "editor.wordWrap": "wordWrapColumn",
-    "editor.wordWrapColumn": 115,
+    "editor.wordWrap": "on",
     "extensions.autoUpdate": false,
     "files.associations": {
         "*.mof": "ini",
         "*.rc": "shellscript",
         "*.tpl": "yaml",
-        "Jenkinsfile copy": "groovy"
+        ".tflint.hcl": "terraform",
     },
     "files.defaultLanguage": "powershell",
     "files.eol": "\n",
@@ -29,6 +34,9 @@
     "git.confirmSync": false,
     "gitlens.codeLens.enabled": false,
     "gitlens.views.lineHistory.enabled": true,
+    "indentRainbow.includedLanguages": [
+        "yaml"
+    ],
     "markdown.extension.orderedList.marker": "one",
     "powershell.enableProfileLoading": true,
     "powershell.integratedConsole.focusConsoleOnExecute": false,
@@ -38,7 +46,7 @@
     "scm.alwaysShowRepositories": true,
     "shellLauncher.shells.windows": [
         {
-            "label": "PowerShell Core",
+            "label": "PowerShell",
             "shell": "C:\\Program Files\\PowerShell\\7\\pwsh.exe"
         },
         {
@@ -60,10 +68,13 @@
     ],
     "terminal.external.windowsExec": "wt",
     "terminal.integrated.copyOnSelection": true,
-    "terminal.integrated.fontFamily": "'Cascadia Code PL', 'Courier New', monospace",
+    "terminal.integrated.fontFamily": "'CaskaydiaCove NF', 'Cascadia Code PL', 'Courier New', monospace",
     "terminal.integrated.lineHeight": 0,
+    "terminal.integrated.scrollback": 2000,
     "terminal.integrated.shell.windows": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+    "vsicons.dontShowNewVersionMessage": true,
+    "window.zoomLevel": 0,
     "workbench.editor.pinnedTabSizing": "shrink",
     "workbench.iconTheme": "vscode-icons",
-    "workbench.startupEditor": "welcomePage"
+    "workbench.startupEditor": "newUntitledFile"
 }
