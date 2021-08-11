@@ -12,7 +12,10 @@
         "editor.wordWrap": "on",
         "files.trimTrailingWhitespace": false
     },
+    "cSpell.enabled": false,
+    "cSpell.language": "en-GB",
     "diffEditor.ignoreTrimWhitespace": false,
+    "docker.showStartPage": true,
     "editor.fontFamily": "'Cascadia Code PL', 'Consolas', 'Courier New', monospace",
     "editor.rulers": [
         115
@@ -24,34 +27,49 @@
         "*.mof": "ini",
         "*.rc": "shellscript",
         "*.tpl": "yaml",
-        ".tflint.hcl": "terraform",
+        ".tflint.hcl": "terraform"
     },
-    "files.defaultLanguage": "powershell",
+    "files.defaultLanguage": "shellscript",
     "files.eol": "\n",
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
     "git.autofetch": true,
     "git.confirmSync": false,
     "gitlens.codeLens.enabled": false,
-    "gitlens.views.lineHistory.enabled": true,
     "indentRainbow.includedLanguages": [
         "yaml"
     ],
     "markdown.extension.orderedList.marker": "one",
+    "powershell.codeFormatting.newLineAfterCloseBrace": false,
     "powershell.enableProfileLoading": true,
     "powershell.integratedConsole.focusConsoleOnExecute": false,
     "powershell.integratedConsole.showOnStartup": false,
     "powershell.powerShellDefaultVersion": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
     "powershell.sideBar.CommandExplorerVisibility": false,
+    "redhat.telemetry.enabled": false,
     "scm.alwaysShowRepositories": true,
+    "scm.defaultViewMode": "tree",
+    "scm.providerCountBadge": "auto",
+    "scm.repositories.visible": 15,
+    "security.workspace.trust.untrustedFiles": "open",
+    "shellLauncher.shells.linux": [
+        {
+            "label": "PowerShell 7",
+            "shell": "/usr/bin/pwsh"
+        },
+        {
+            "label": "Bash",
+            "shell": "/bin/bash"
+        }
+    ],
     "shellLauncher.shells.windows": [
         {
             "label": "PowerShell",
             "shell": "C:\\Program Files\\PowerShell\\7\\pwsh.exe"
         },
         {
-            "label": "WSL Bash",
-            "shell": "C:\\Windows\\system32\\bash.exe"
+            "label": "Ubuntu 18.04",
+            "shell": "C:\\Users\\adamr\\AppData\\Local\\Microsoft\\WindowsApps\\ubuntu1804.exe"
         },
         {
             "label": "Ubuntu 20.04",
@@ -68,12 +86,14 @@
     ],
     "terminal.external.windowsExec": "wt",
     "terminal.integrated.copyOnSelection": true,
-    "terminal.integrated.fontFamily": "'CaskaydiaCove NF', 'Cascadia Code PL', 'Courier New', monospace",
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.fontFamily": "'CaskaydiaCove NF', 'Cascadia Code PL', 'Delugia Nerd Font', 'Courier New', monospace",
     "terminal.integrated.lineHeight": 0,
     "terminal.integrated.scrollback": 2000,
-    "terminal.integrated.shell.windows": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+    "terminal.integrated.tabs.enabled": true,
     "vsicons.dontShowNewVersionMessage": true,
-    "window.zoomLevel": 0,
+    "workbench.editor.decorations.badges": true,
     "workbench.editor.pinnedTabSizing": "shrink",
     "workbench.iconTheme": "vscode-icons",
     "workbench.startupEditor": "newUntitledFile"

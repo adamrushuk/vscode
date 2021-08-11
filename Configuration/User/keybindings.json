@@ -93,4 +93,14 @@
         "key": "ctrl+shift+alt+c",
         "command": "workbench.files.action.collapseExplorerFolders"
     },
+    {
+        "key": "ctrl+shift+alt+f8",
+        "command": "editor.action.marker.nextInFiles",
+        "when": "editorFocus"
+    },
+    {
+        "key": "f8",
+        "command": "-editor.action.marker.nextInFiles",
+        "when": "editorFocus"
+    },
 ]
